@@ -14,7 +14,7 @@
 
 Програма ставиться в профіль користувача, права адміністратора не потрібні. Інсталятор не підписаний, тому Windows SmartScreen може показати вікно «Windows захистила ваш ПК». Щоб продовжити, натисніть «Докладніше», а потім «Виконати в будь-якому разі».
 
-Нові версії TIMEFLOW завантажує сам. Коли оновлення готове, зліва внизу з'являється значок. Клік по ньому перезапускає програму вже з новою версією, а без кліку оновлення встановиться під час закриття.
+Нові версії TIMEFLOW завантажує сам. Коли оновлення готове, зліва внизу з'являється значок. Клік по ньому показує, що змінилося, і пропонує оновитися зараз. Якщо відмовитися, оновлення встановиться під час закриття програми.
 
 ## Скріншоти
 
@@ -41,7 +41,7 @@
 - Одночасно йде один таймер. Запуск іншого проєкту ставить попередній на паузу.
 - Звіти за день, тиждень, місяць і весь час, експорт у CSV.
 - Передача часу в задачу ClickUp за посиланням, ID або назвою.
-- Закріплені проєкти, кольори, пошук і компактна панель для вузького вікна.
+- Закріплені проєкти, пошук і компактна панель для вузького вікна.
 - Значок у треї та маленьке вікно поверх інших програм.
 - Щоденна резервна копія в `Документи\TIMEFLOW\backups`.
 
@@ -63,7 +63,7 @@ TIMEFLOW is a project timer for Windows 11. It tracks time per project, shows th
 
 **Download:** the latest `TIMEFLOW-Setup-X.Y.Z.exe` is in [Releases](https://github.com/antonflash/timeflow-releases/releases/latest). This repository only holds installers; the source code is closed.
 
-**Install:** no administrator rights needed. The installer is not signed, so Windows SmartScreen may say "Windows protected your PC". Click "More info", then "Run anyway". Updates download automatically; an icon at the bottom left restarts the app on the new version.
+**Install:** no administrator rights needed. The installer is not signed, so Windows SmartScreen may say "Windows protected your PC". Click "More info", then "Run anyway". Updates download automatically; an icon at the bottom left shows what changed and offers to restart on the new version.
 
 **Data:** everything stays on the computer. The ClickUp token is encrypted by Windows. The app only goes online to send time to ClickUp and to check this repository for updates.
 
